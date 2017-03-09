@@ -19,9 +19,12 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "am",
       "styles": [
-        "styles.css"
+        "styles.css",
+        "psd-primary.scss"
       ],
-      "scripts": [],
+      "scripts": [
+
+      ],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",
