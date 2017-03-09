@@ -14,9 +14,10 @@ $theme: mat-light-theme($primary, $accent);
 
 header {
   width: 100%;
-  min-height: 100px;
+  min-height: 50px;
   background-color: lightgrey;
   color: white;
+  display: flex;
 }
 
 .container {
@@ -24,12 +25,14 @@ header {
   width: 80%;
   height: 100%;
   margin: 0 auto;
-  background-color: gray;
+  padding: 10px;
+  //background-color: gray;
 }
 
 .content {
   min-height: 500px;
   width: 100%;
+  display: flex;
 }
 
 footer {
@@ -40,5 +43,52 @@ footer {
 
 .db {
   background-color: darkblue;
-
+  color: white;
 }
+
+p {
+  padding: 10px;
+}
+
+.fr {
+  top: 5px;
+  right: 5px;
+  float: right;
+}
+
+.fl {
+  left: 5px;
+  display: inline;
+}
+
+md-icon {
+  padding-right: 10px;
+}
+
+.sm-image {
+  height: 50px;
+  width: 200px;
+  //position: relative;
+}
+
+md-card-content {
+  padding: 10px;
+}
+md-card-content h3 {
+  padding: 10px;
+}
+
+.pad {
+  padding: 10px;
+}
+
+.copyright {
+  min-height: 50px;
+  width: 100%;
+}
+
+.copyright div {
+  padding: 10px;
+  text-align: center;
+}
+

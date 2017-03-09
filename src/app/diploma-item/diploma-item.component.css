@@ -1,0 +1,14 @@
+.example-card {
+  width: 25%;
+  margin: 5px;
+  height: auto;
+  float: left;
+}
+
+.example-header-image {
+  background-size: cover;
+}
+
+.cf {
+  padding: 10px;
+}
