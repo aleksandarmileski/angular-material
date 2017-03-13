@@ -54,6 +54,11 @@ p {
   top: 5px;
   right: 5px;
   float: right;
+  width: 50%;
+}
+
+.fr button {
+  width: 23%;
 }
 
 .fl {
@@ -61,8 +66,9 @@ p {
   display: inline;
 }
 
-md-icon {
-  padding-right: 10px;
+sm-icon {
+  padding: 5px 0 5px;
+  float: right;
 }
 
 .sm-image {
@@ -74,6 +80,7 @@ md-icon {
 md-card-content {
   padding: 10px;
 }
+
 md-card-content h3 {
   padding: 10px;
 }
@@ -92,3 +99,23 @@ md-card-content h3 {
   text-align: center;
 }
 
+footer .mat-card {
+  padding: 0;
+}
+
+.fullwidth {
+  background-color: blueviolet;
+  width: 100%;
+}
+
+@media screen and (max-width: 1000px) { /*The following CSS runs only for displays with a width (in pixels) of more than 800px*/
+  .container {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) { /*The following CSS runs only for displays with a width (in pixels) of more than 800px*/
+  .container {
+    width: 100%;
+  }
+}

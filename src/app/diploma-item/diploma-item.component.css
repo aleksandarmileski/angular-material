@@ -1,8 +1,21 @@
 .example-card {
-  width: 25%;
-  margin: 5px;
+  width: 32%;
+  padding: 1px;
+  /*margin: 10px;*/
   height: auto;
   float: left;
+  border: 0px solid transparent;
+}
+
+.mat-card {
+  box-shadow: 0 0 0 0;
+}
+
+md-card-content {
+  margin-top: 0;
+  margin-bottom: 0;
+  background-color: lightgray;
+
 }
 
 .example-header-image {
@@ -11,4 +24,45 @@
 
 .cf {
   padding: 10px;
+}
+
+img {
+  width: 100%;
+}
+
+.fr md-icon {
+  float: right;
+}
+
+@media screen and (max-width: 1000px) { /*The following CSS runs only for displays with a width (in pixels) of more than 800px*/
+  .example-card {
+    width: 48%;
+    padding: 1px;
+    /*margin: 10px;*/
+    height: auto;
+    float: left;
+    border: 0px solid transparent;
+  }
+  .fl {
+    width: 70%;
+  }
+  .fr {
+    width: 25%;
+  }
+  md-card-content {
+    height: auto;
+  }
+  .container {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 600px) { /*The following CSS runs only for displays with a width (in pixels) of more than 800px*/
+  .example-card {
+    width: 95%;
+    padding: 1px;
+    /*margin: 10px;*/
+    height: auto;
+    float: left;
+    border: 0px solid transparent;
+  }
 }
